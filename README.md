@@ -22,4 +22,4 @@ markdown file.
 
 ## Answer
 
-The asymptotic complexity of this tail-recursive Fibonacci is different from the non-tail-recursive version. This version has a linear amount of recursive calls, giving it a worst case complexity of $\Theta(n)$, whereas the non-tail-recursive version makes two recursive calls at the end of each active call, giving it a much higher degree of asymptotic complexity.
+The asymptotic complexity of this tail-recursive Fibonacci is different from the non-tail-recursive version. This version has a linear amount of recursive calls, giving it a worst case complexity of $\Theta(n)$, whereas the non-tail-recursive version makes two recursive calls at the end of each active call, giving it an asymtotic complexity of $\Theta(2^n)$.
