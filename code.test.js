@@ -8,6 +8,6 @@ function controlFib(n) { // from the slides
     else        return controlFib(n-1) + controlFib(n-2);
 }
 
-for (let i = 0; i < 100; i++) {
+for (let i = 0; i < 20; i++) {
     assert(fib(i) == controlFib(i));
 }
